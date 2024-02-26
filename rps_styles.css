@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
 }
 .rps_background {
-    background-image: url('rps_background.jpg'); /* Cambia 'arcade-background.jpg' por la ruta de tu imagen de fondo de arcade */
+    background-image: url('rps_background2.jpg'); /* Cambia 'arcade-background.jpg' por la ruta de tu imagen de fondo de arcade */
     background-size: cover;
     background-position: center;
 }
