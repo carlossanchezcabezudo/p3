@@ -1,5 +1,5 @@
 .menu-background {
-    background-image: url('arcade_background.jpg'); /* Cambia 'arcade-background.jpg' por la ruta de tu imagen de fondo de arcade */
+    background-image: url('arcade_background.png'); /* Cambia 'arcade-background.jpg' por la ruta de tu imagen de fondo de arcade */
     background-size: cover;
     background-position: center;
 }
