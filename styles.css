@@ -1,0 +1,46 @@
+.menu-background {
+    background-image: url('arcade_background.jpg'); /* Cambia 'arcade-background.jpg' por la ruta de tu imagen de fondo de arcade */
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.menu-title {
+    font-size: 48px;
+    color: #FFD700; /* Color dorado */
+    text-shadow: 2px 2px 2px #000000; /* Sombra de texto */
+    padding: 10px 20px;
+    background-color: #8B4513; /* Color marrón */
+    border: 2px solid #FFD700; /* Borde dorado */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game-title {
+    font-size: 36px;
+    color: #FF6347; /* Color rojo coral */
+    text-shadow: 2px 2px 2px #000000; /* Sombra de texto */
+    padding: 10px 20px;
+    background-color: #FFD700; /* Color dorado */
+    border: 2px solid #8B4513; /* Borde marrón */
+    border-radius: 10px; /* Bordes redondeados */
+    cursor: pointer;
+}
+
+.game-title:hover {
+    background-color: #FFFF00; /* Color amarillo al pasar el ratón */
+}
+
+.game-title:focus {
+    outline: none; /* Quita el borde al hacer clic */
+}

@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #32CD32; /* Color verde lima */
+}
+.trivia_background {
+    background-image: url('trivia_background.jpg'); /* Cambia 'arcade-background.jpg' por la ruta de tu imagen de fondo de arcade */
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.game-title {
+    font-size: 36px;
+    color: #FF4500; /* Color naranja oscuro */
+    text-shadow: 2px 2px 2px #000000; /* Sombra de texto */
+    padding: 10px 20px;
+    background-color: #FFD700; /* Color dorado */
+    border: 2px solid #8B4513; /* Borde marrón */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    font-size: 24px;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #f3de69; /* Color dorado */
+    color: #000000; /* Color negro */
+    border: 2px solid #8B4513; /* Borde marrón */
+    border-radius: 8px; /* Bordes redondeados */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f5f84d; /* Color amarillo al pasar el ratón */
+}
+
+button:focus {
+    outline: none; /* Quita el borde al hacer clic */
+}
+.special-button {
+    font-size: 14px;
+    padding: 10px;
+    background-color: #FF4500; /* Color rojo coral */
+    color: #FFF; /* Color del texto */
+    border: none;
+    border-radius: 6px;
+    margin-top: 8px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Efecto relieve */
+}
+
+.special-button:hover {
+    background-color: #FF4500; /* Color naranja al pasar el ratón */
+}
+
+.special-button:focus {
+    outline: none;
+}
+.question-button {
+    font-size: 20px;
+    padding: 12px;
+    background-color: #FFD700; /* Color rojo coral */
+    color: #FF4500; /* Color del texto */
+    text-shadow: 1px 1px 1px #000000; /* Sombra de texto */
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Efecto relieve */
+}
+
+.question-button:hover {
+    background-color: #FFD700; /* Color naranja al pasar el ratón */
+}
+
+.question-button:focus {
+    outline: none;
+}

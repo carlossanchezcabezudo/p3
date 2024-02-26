@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivial</title>
+    <link rel="stylesheet" href="trivia_styles.css">
+</head>
+<body class = "trivia_background">
+    <header>
+        <h1 class="game-title">Trivial</h1>
+    </header>
+    <div class="container">
+        <button class="question-button" id="question"></button>
+        <div id="options"></div>
+        <button class="special-button" id="result"></button>
+        <div class="stats">
+            <button class="special-button" id="attemptsBtn" class="stats-btn">Intentos: <span id="attempts">0</span></button>
+            <button class="special-button" id="winsBtn" class="stats-btn">Aciertos: <span id="wins">0</span></button>
+        </div>
+        <button id="nextBtn">Siguiente Pregunta</button>
+        <button id="backBtn">Volver al Menú</button>
+    </div>
+    <script src="trivia.js"></script>
+</body>
+</html>
+
